@@ -330,6 +330,7 @@ section {
 }
 .splide__slide img {
   width: 100%;
+  box-shadow: var(--card-shadow)
 }
 
 /* SPINNER */
