@@ -326,10 +326,10 @@ section {
 .splide__slide {
   border: var(--accent-color) solid;
   border-width: 5px 10px;
-  box-shadow: var(--header-shadow)
-
+}
 .splide__slide img {
   width: 100%;
+  box-shadow: var(--card-shadow)
 }
 
 /* SPINNER */
