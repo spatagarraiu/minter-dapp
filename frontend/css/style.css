@@ -149,6 +149,7 @@ header .container {
   opacity: 0;
   transform: translateX(100vw);
   transition: all 0.5s ease-in-out;
+  box-shadow: var(--card-shadow)
 }
 
 .show-card {
