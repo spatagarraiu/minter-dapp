@@ -326,6 +326,7 @@ section {
 .splide__slide {
   border: var(--accent-color) solid;
   border-width: 5px 10px;
+  shadow: var(--accent-color) 0px 0px 20px;
 }
 
 .splide__slide img {
