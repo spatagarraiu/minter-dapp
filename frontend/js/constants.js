@@ -1,9 +1,9 @@
 const contractAddress = "0x1DB7C6bE4Ca79985C62ccf178d18a8300662ad45"; //Replace with your own contract address
 const chain = 'rinkeby'; // rinkeby or polygon
 
-const welcome_h1 = "Welcome to the CodeCats NFT Project!!";
+const welcome_h1 = "Welcome to the Kinesio hack NFT Project!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'The CodeCats NFT Project is a decentralized, open-source project that aims to demonstrate how to develope and launch your own NFT Collection. Follow step by step on the <a href="https://youtube.com/codestackr"  target="_blank" rel="noopener noreferrer">codeSTACKr</a> YouTube channel.';
+const welcome_p = 'A collection of workouts designed for combat sport, every workout is unique with a different level of rarity and intensity. We are also a personal trainer studio located in Italy. Follow us on <a href="https://www.tiktok.com/@kinesiohack"  target="_blank" rel="noopener noreferrer">TikTok</a>.';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
