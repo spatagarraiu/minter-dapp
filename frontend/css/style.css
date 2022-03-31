@@ -321,12 +321,12 @@ section {
   top: 90px;
   left: 5rem;
   z-index: -1;
-  box-shadow: var(--card-shadow);
 }
 
 .splide__slide {
   border: var(--accent-color) solid;
   border-width: 5px 10px;
+  box-shadow: var(--card-shadow);
 }
 .splide__slide img {
   width: 100%;
