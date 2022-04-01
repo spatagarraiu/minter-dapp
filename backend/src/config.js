@@ -53,12 +53,12 @@ const CONTRACT_SYMBOL = 'KHC';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0xA529Ea36441448A534522c2543050B066E1Bc249';
 const TREASURY_ADDRESS = '0xA529Ea36441448A534522c2543050B066E1Bc249';
-const MAX_SUPPLY = 6000; // The maximum number of NFTs that can be mx\inted. CANNOT BE UPDATED!
+const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be mx\inted. CANNOT BE UPDATED!
 const MINT_PRICE = 0.001; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 20; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-04-28T16:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-04-01T10:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = "2022-04-01T08:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
@@ -66,7 +66,7 @@ const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the ro
 const ROYALTY_ADDRESS = "0xA529Ea36441448A534522c2543050B066E1Bc249"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
-const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually set the whitelisted addresses
+const PRESALE_WHITELISTED_ADDRESSES = ["0xA529Ea36441448A534522c2543050B066E1Bc249"]; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
 let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually include it
@@ -92,12 +92,12 @@ try {
 // END NFTPort Info
 
 const solanaMetadata = {
-  symbol: "YC",
+  symbol: "KHC",
   seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
-  external_url: "https://www.youtube.com/c/hashlipsnft",
+  external_url: "https://www.kinesiohack.com/nft",
   creators: [
     {
-      address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
+      address: "0xA529Ea36441448A534522c2543050B066E1Bc249",
       share: 100,
     },
   ],
