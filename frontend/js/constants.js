@@ -1,5 +1,5 @@
-const contractAddress = "0x1DB7C6bE4Ca79985C62ccf178d18a8300662ad45"; //Replace with your own contract address
-const chain = 'rinkeby'; // rinkeby or polygon
+const contractAddress = "0x3C0ef21A66290421C7A28C2469b842fFc69a5d0F"; //Replace with your own contract address
+const chain = 'polygon'; // rinkeby or polygon
 
 const welcome_h1 = "Benvenuti nella collezione NFT Kinesio hack!!";
 const welcome_h2 = "Connettiti a Metamask per cominciare";
